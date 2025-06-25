@@ -31,13 +31,13 @@ exclude_file = []
 # Exclude specific regular expressions.
 exclude_regex = ["_test\\.go"]
 # Exclude unchanged files.
-exclude_unchanged = true
+exclude_unchanged = false
 # Follow symlink for directories
 follow_symlink = true
 # This log file is placed in your tmp_dir.
 log = "air.log"
 # Poll files for changes instead of using fsnotify.
-poll = false
+poll = true
 # Poll interval (defaults to the minimum interval of 500ms).
 poll_interval = 500 # ms
 # It's not necessary to trigger build each time file changes if it's too frequent.
